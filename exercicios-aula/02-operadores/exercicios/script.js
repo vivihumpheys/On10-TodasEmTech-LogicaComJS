@@ -26,6 +26,13 @@
   Obs: Utilizar o Number() para converter o tipo da variável em número.
 */ 
 
+// let numero1 = Number(prompt("insira um número"));
+// let numero2 = Number(prompt("insira outro número"));
+
+// let soma = numero1 + numero2;
+
+// // alert("a soma dos seus dois números é: " + soma);
+// alert(`a soma dos seus dois números é ${soma}`);
 
 
 /* 
@@ -38,6 +45,11 @@
   Obs: Utilizar o Number() para converter o tipo para numero dos dados.
 */
 
+let valorJantar = Number(prompt("Insira o valor do jantar"));
+let taxaDeServico = 0.1;
+let valorFinal = valorJantar + (taxaDeServico*valorJantar);
+
+console.log(`O valor do jantar é: R$${valorJantar}, o valor da taxa de serviço é de: ${taxaDeServico*100}% e o valor final é de: R$${valorFinal}`);
 
 
 // 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
